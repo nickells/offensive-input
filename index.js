@@ -1,5 +1,7 @@
 const nameInput = document.getElementById('name')
 
+nameInput.focus();
+
 const desiredString = "Stupid Idiot"
 
 nameInput.addEventListener('input', e => {
